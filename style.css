@@ -1,0 +1,19 @@
+:root {
+}
+
+header {
+    background-color: lightblue;
+    height: 150px;
+    width: auto;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+#float-right {
+    float:right;
+}
+
+
+
