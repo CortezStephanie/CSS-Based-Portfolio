@@ -5,32 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephanie's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="/02-Advanced-CSS/02-Homework/Assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="/02-Advanced-CSS/02-Homework/Assets/style.css">
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<header>
-    <h1 id="float-left">Stephanie Cortez</h1>
-    <nav id="float-right">
-        <a href="text">About Me</a>
-        <a href="text">Work</a>
-        <a href="text">Contact</a>
-        <a href="text">Resources</a>
-    </nav>
-    <h2>Portfolio</h2>
-</header>
-
 <body>
-    <aside class=>
-        <h3>About Me</h3>
+    <header>
+        <container id="container1">
+                <h1>Stephanie Cortez</h1>
+                <figure>
+                    <img src="me.jpg" alt="Picture of Stephanie">
+                </figure>    
+        </container>    
+        <container id="container2">
+            <content>  
+                <nav>
+                    <a href="text">About Me</a>
+                    <a href="text">Work</a>
+                    <a href="text">Contact</a>
+                    <a href="text">Resources</a>
+                </nav>
+                <h2 id="flex-end">Portfolio</h2>
+            </content>
+        </container>
+    </header>
+    <aside>
+        <section class="titles">
+            <div>
+                <h3 class="title1">About Me</h1>
+            </div>
+            <div>    
+                <h3 class="title2">Work</h1>
+            </div>
+            <div>    
+                <h3 class="title3">Contact</h1>
+            </div>    
+        </section>
     </aside>
-    <main class="column-right">
-       <p>Hello World! My name is Stephanie</p> 
+    <main>
+        <section class="column-right">
+            <div id="aboutme">
+                <p class="content">
+                    text
+                </p>
+            </div>
+            <div id="work">
+                <div class="content">
+                    Grid
+                </div>
+            </div>
+            <div id="contact">
+                <p class="content">
+                    text
+                </p>
+            </div>
+        </section>
     </main>
-</body>
+    
+    <footer>
+        <figure>
+            <a href="">W3Schools.com</a>
+            <a href="">developer.mozilla.org</a>
+            <a href="">youtube.com</a>
+        </figure>
+    </footer>
 
-<footer>
-    <a href="">W3School</a>
-    <a href="">MDN</a>
-</footer>
+</body>
+ 
 </html>

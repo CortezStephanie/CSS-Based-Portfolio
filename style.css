@@ -1,18 +1,53 @@
-:root {
-}
-
-header {
-    background-color: lightblue;
-    height: 150px;
-    width: auto;
+:root { --darkslategray: 
 }
 
 body {
-    background-color: floralwhite;
+    display:grid;
+    height:100vh;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "h1 h1 nav nav"
+    "img img portfoli portfolio"
+    "aside main main main"
+    "footer footer footer footer";
+    background-color:#D9B5AD;
+    font-family:'Lucida Sans', sans-serif ;
 }
 
-#float-right {
-    float:right;
+header {
+    background:#73403C;
+}
+
+nav {
+    grid-area: "nav";
+    background:red;
+}
+    
+aside {
+    grid-area: "aside";
+    background: purple;
+    
+
+}
+
+main {
+    grid-area:"main";
+    background: pink;
+  
+}
+
+footer {
+    grid-area: "footer";
+    background: powderblue;
+    
+}
+
+img {
+    grid-area: "img";
+    height:150px;
+    width:150px;
+    border-radius: 25px 25px 25px 0px;
+    margin-left:-30px;
 }
 
 
