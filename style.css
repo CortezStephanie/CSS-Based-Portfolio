@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
     align-items:center;
     padding:1%;
+    padding-left: 0;
     background-color:#403D39;
     color:#403D39;
 }
@@ -42,6 +43,15 @@ nav a {
     text-decoration: none;
     color:#F2EDE4;
 }
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: underline;
+    font-weight: 2em;
+    padding:1rem;
+}
   
 content {
     background-image: url("./CSS/117174-abstract-light-brown-blurry-lights-background-image.jpg");
@@ -67,11 +77,13 @@ content {
   
 }  */
 
-footer {
+footer {     
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:1%;
     background-color:#403D39;
-    
-
-    
+    color:#F2EDE4;
 }
 
 #me {
@@ -85,6 +97,7 @@ h1 {
     width: fit-content;
     font-size: 200%;
     background:#BFAE9F;
+    padding: 1%;
 }
 
 h2 {
@@ -92,8 +105,11 @@ h2 {
     position: absolute;
     top: 0;
     left: 0; */
-    padding: 0;
-    margin: 0;
+    width: fit-content;
+    background-color:#403D39;
+    color:#BFAE9F;
+    font-size: 300%;
+    margin-right: 1%;
 }
 
 .aboutme {
@@ -109,6 +125,7 @@ h2 {
     text-align: right;
     font-size: large;
     border-right: 3px solid black;
+    margin-right: 1%;
 }
 
 .aboutme main {
@@ -131,7 +148,11 @@ h2 {
 }
 
 .work main {
-    flex: 0 0 78%
+    flex:wrap;
+    display:flex;
+    justify-content:space-between;
+    flex: 0 0 78%;
+    position: relative;
 }
 
 .contact {
@@ -153,16 +174,56 @@ h2 {
     flex: 0 0 78%
 }
 
+figure a {
+    color:#F2EDE4;
+}
+
+#work1 {
+    width:40vh;
+    height:40vh;
+    display:flex;
+    justify-content: left;
+}
+
+#work2 {
+    width:30vh;
+    height:30vh;
+    display:flex;
+    justify-content:left;
+}
+
+#work3 {
+    width: 30vh;
+    height:30vh;
+    display:flex;
+    justify-content: right;
+
+}
+
+#work4 {
+    width:30vh;
+    height:30vh;
+    display:flex;
+    justify-content:
+}
+
+
+
 @media screen and (max-width: 744px) {
-    .section {
+    .aboutme {
         flex-direction: column;
         flex-wrap: nowrap;
     }
     
-    .section aside {
+    .aboutme aside {
         text-align: center;
         border-right: none;
         border-bottom: 3px solid black;
         margin-bottom: 2px;
+    }
+
+    .work main {
+        flex-direction: column;
+        flex-wrap:nowrap;
     }
 }
