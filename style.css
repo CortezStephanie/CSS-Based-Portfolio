@@ -2,7 +2,7 @@
 }
 
 body {
-    background-color:#F2EDE4;
+    background-color:#8C3737;
     font-family:'Lucida Sans', sans-serif ;
 }
 
@@ -54,7 +54,8 @@ ul {
 }
   
 content {
-    background-image: url("./CSS/117174-abstract-light-brown-blurry-lights-background-image.jpg");
+    background-image: url("./CSS/annie-spratt-r9eIL7jtenc-unsplash.jpg");
+    object-position: 15vh 1;
     height: 40vh;
     background-size: cover;
     display: flex;
