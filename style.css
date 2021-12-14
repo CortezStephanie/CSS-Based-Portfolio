@@ -2,7 +2,7 @@
 }
 
 body {
-    background-color:#8C3737;
+    background-color:#A65665;
     font-family:'Lucida Sans', sans-serif ;
 }
 
@@ -55,7 +55,6 @@ ul {
   
 content {
     background-image: url("./CSS/annie-spratt-r9eIL7jtenc-unsplash.jpg");
-    object-position: 15vh 1;
     height: 40vh;
     background-size: cover;
     display: flex;
@@ -83,7 +82,7 @@ footer {
     justify-content: space-between;
     align-items:center;
     padding:1%;
-    background-color:#403D39;
+    background-color:#591D1D;
     color:#F2EDE4;
 }
 
@@ -153,7 +152,7 @@ h2 {
     display:flex;
     justify-content:space-between;
     flex: 0 0 78%;
-    position: relative;
+    /*position: relative;*/
 }
 
 .contact {
@@ -205,7 +204,6 @@ figure a {
     width:30vh;
     height:30vh;
     display:flex;
-    justify-content:
 }
 
 
@@ -226,5 +224,12 @@ figure a {
     .work main {
         flex-direction: column;
         flex-wrap:nowrap;
+    }
+
+    .work aside {
+        text-align: center;
+        border-right: none;
+        border-bottom: 3px solid black;
+        margin-bottom: 2px;
     }
 }
